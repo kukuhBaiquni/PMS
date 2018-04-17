@@ -8,10 +8,10 @@ var session = require('express-session')
 const {Pool} = require('pg');
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'PMS',
-  password: 'sariel',
+  user: 'ditajmpfgytsri',
+  host: 'ec2-54-221-207-184.compute-1.amazonaws.com',
+  database: 'd51nr45684cp0b',
+  password: '90f75355d1caca9733e7e22643918d88d0c806f08b4099124170586a8cc2122d',
   port: 5432,
 })
 
